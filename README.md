@@ -1,7 +1,10 @@
 # cpp_kaffeprat
 
-Vis presentasjonen http://meastp.github.io/cpp_kaffeprat/slides.html
+# tidligere presentasjoner
 
+- http://meastp.github.io/cpp_kaffeprat/1.html
+
+# status
 - [x] nullptr
 - [x] auto
 - [x] tie, tuple
