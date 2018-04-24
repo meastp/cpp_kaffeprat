@@ -18,28 +18,28 @@ using namespace std;
  - [x] range-based for
  - [x] unique_ptr, make_unique
  - [x] shared_ptr, make_shared
- - [] std::move, std::forward, rvalue references og move semantics
- - [] type traits (eks. std::is_integral<int>::value)
- - [] std::chrono
- - [] std::atomic
- - [] std::thread
- - [] std::future
- - [] std::mutex, std::recursive_mutex osv.
- - [] std::lock, std::lock_guard
- - [] variadic templates
- - [] initializer lists
- - [] lambda-funksjoner
- - [] decltype
- - [] using (i stedet for typedef)
- - [] enum class ("strongly typed enums")
- - [] attributes
- - [] constexpr
- - [] delegating constructors
- - [] user-defined literals
- - [] override og final
- - [] default and deleted functions
- - [] inline-namespace
- - [] non-static data member initializers
+ - [ ] std::move, std::forward, rvalue references og move semantics
+ - [ ] type traits (eks. std::is_integral<int>::value)
+ - [ ] std::chrono
+ - [ ] std::atomic
+ - [ ] std::thread
+ - [ ] std::future
+ - [ ] std::mutex, std::recursive_mutex osv.
+ - [ ] std::lock, std::lock_guard
+ - [ ] variadic templates
+ - [ ] initializer lists
+ - [ ] lambda-funksjoner
+ - [ ] decltype
+ - [ ] using (i stedet for typedef)
+ - [ ] enum class ("strongly typed enums")
+ - [ ] attributes
+ - [ ] constexpr
+ - [ ] delegating constructors
+ - [ ] user-defined literals
+ - [ ] override og final
+ - [ ] default and deleted functions
+ - [ ] inline-namespace
+ - [ ] non-static data member initializers
 
 ## C++14
  - [] binary literals
