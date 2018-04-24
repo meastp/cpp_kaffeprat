@@ -5,8 +5,14 @@
 - http://meastp.github.io/cpp_kaffeprat/1.html
 
 # status
+
+```cpp
+using namespace std;
+```
+
 - [x] nullptr
 - [x] auto
+- [x] to_string
 - [x] tie, tuple
 - [x] array
 - [x] range-based for
