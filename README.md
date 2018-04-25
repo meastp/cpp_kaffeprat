@@ -1,8 +1,9 @@
 # cpp_kaffeprat
 
-# tidligere presentasjoner
+# presentasjoner
 
 - http://meastp.github.io/cpp_kaffeprat/1.html
+- http://meastp.github.io/cpp_kaffeprat/2.html (wip)
 
 # status
 
