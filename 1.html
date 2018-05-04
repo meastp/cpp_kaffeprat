@@ -26,6 +26,6 @@
   <body>
     <script src="remark-0.6.3.min.js" type="text/javascript"></script>
     <textarea id="source"></textarea>
-    <script type="text/javascript"> $(document).ready(function() { $('#source').load('1.md'); var slideshow = remark.create(); }); </script>
+    <script type="text/javascript"> $(document).ready(function() { var slideshow = remark.create({sourceUrl: '1.md',}); }); </script>
   </body>
 </html>
