@@ -1,5 +1,9 @@
 # cpp_kaffeprat
 
+# C++ Core Guidelines
+
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
 # presentasjoner
 
 - http://meastp.github.io/cpp_kaffeprat/1.html
