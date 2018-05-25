@@ -7,7 +7,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 # presentasjoner
 
 - http://meastp.github.io/cpp_kaffeprat/1.html
-- http://meastp.github.io/cpp_kaffeprat/2.html (wip)
+- http://meastp.github.io/cpp_kaffeprat/2.html (WIP)
 
 # status
 
