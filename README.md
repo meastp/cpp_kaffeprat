@@ -7,7 +7,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 # presentasjoner
 
 - http://meastp.github.io/cpp_kaffeprat/1.html
-- http://meastp.github.io/cpp_kaffeprat/2.html (WIP)
+- http://meastp.github.io/cpp_kaffeprat/2.html
 
 # status
 
@@ -23,9 +23,9 @@ using namespace std;
  - [x] range-based for
  - [x] unique_ptr, make_unique
  - [x] shared_ptr, make_shared
- - [ ] non-static data member initializers
- - [ ] move semantics: move, forward, rvalue references og move constructors/-assignment
- - [ ] default and deleted functions
+ - [x] non-static data member initializers
+ - [x] move semantics: move, forward, rvalue references og move constructors/-assignment
+ - [x] default and deleted functions
  - [ ] std::mutex, std::recursive_mutex osv.
  - [ ] type traits (eks. std::is_integral<int>::value)
  - [ ] std::chrono
