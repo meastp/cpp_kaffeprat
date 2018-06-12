@@ -30,7 +30,7 @@ using namespace std;
  - [ ] enum class ("strongly typed enums")
  - [ ] std::mutex, std::recursive_mutex osv.
  - [ ] std::lock, std::lock_guard
- - [ ] using (i stedet for typedef)
+ - [ ] using (i stedet for typedef) (alias og alias templates)
  - [ ] type traits (eks. std::is_integral<int>::value)
  - [ ] user-defined literals
  - [ ] std::chrono
