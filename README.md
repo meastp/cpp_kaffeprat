@@ -8,7 +8,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
 - http://meastp.github.io/cpp_kaffeprat/1.html
 - http://meastp.github.io/cpp_kaffeprat/2.html
-- http://meastp.github.io/cpp_kaffeprat/3.html (WIP)
+- http://meastp.github.io/cpp_kaffeprat/3.html
 
 # status
 
@@ -27,10 +27,11 @@ using namespace std;
  - [x] non-static data member initializers
  - [x] move semantics: move, forward, rvalue references og move constructors/-assignment
  - [x] default and deleted functions
- - [ ] enum class ("strongly typed enums")
+ - [x] enum class ("strongly typed enums")
+ - [x] using (i stedet for typedef) (alias og alias templates)
+ - [x] lambda-funksjoner
  - [ ] std::mutex, std::recursive_mutex osv.
  - [ ] std::lock, std::lock_guard
- - [ ] using (i stedet for typedef) (alias og alias templates)
  - [ ] type traits (eks. std::is_integral<int>::value)
  - [ ] user-defined literals
  - [ ] std::chrono
@@ -39,7 +40,6 @@ using namespace std;
  - [ ] std::future
  - [ ] variadic templates
  - [ ] initializer lists
- - [ ] lambda-funksjoner
  - [ ] decltype
  - [ ] attributes
  - [ ] constexpr
