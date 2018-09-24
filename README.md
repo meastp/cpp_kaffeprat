@@ -9,6 +9,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/1.html
 - http://meastp.github.io/cpp_kaffeprat/2.html
 - http://meastp.github.io/cpp_kaffeprat/3.html
+- http://meastp.github.io/cpp_kaffeprat/4.html
 
 # status
 
