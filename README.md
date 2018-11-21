@@ -31,6 +31,7 @@ using namespace std;
  - [x] enum class ("strongly typed enums")
  - [x] using (i stedet for typedef) (alias og alias templates)
  - [x] lambda-funksjoner
+ - [x] override og final
  - [ ] std::mutex, std::recursive_mutex osv.
  - [ ] std::lock, std::lock_guard
  - [ ] type traits (eks. std::is_integral<int>::value)
@@ -45,7 +46,6 @@ using namespace std;
  - [ ] attributes
  - [ ] constexpr
  - [ ] delegating constructors
- - [ ] override og final
  - [ ] inline-namespace
 
 ## C++14
