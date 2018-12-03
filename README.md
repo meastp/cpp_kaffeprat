@@ -19,31 +19,31 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 using namespace std;
 ```
 ## C++11
- - [1] nullptr
- - [1] auto
- - [1] to_string
- - [1] tie, tuple
- - [1] array
- - [1] range-based for
- - [1] unique_ptr, make_unique
- - [1] shared_ptr, make_shared
- - [2] non-static data member initializers
- - [2] move semantics: move, forward, rvalue references og move constructors/-assignment
- - [2] default and deleted functions
- - [3] enum class ("strongly typed enums")
- - [3] using (i stedet for typedef) (alias og alias templates)
- - [3] lambda-funksjoner
- - [4] override og final
- - [5] std::mutex, std::recursive_mutex osv.
- - [5] std::lock, std::lock_guard
- - [5] std::atomic
- - [5] std::thread
- - [5] std::future
- - [6] inline-namespace
- - [6] user-defined literals
- - [6] initializer lists
- - [6] delegating constructors
- - [6] std::chrono
+ - [x] (1) nullptr
+ - [x] (1) auto
+ - [x] (1) to_string
+ - [x] (1) tie, tuple
+ - [x] (1) array
+ - [x] (1) range-based for
+ - [x] (1) unique_ptr, make_unique
+ - [x] (1) shared_ptr, make_shared
+ - [x] (2) non-static data member initializers
+ - [x] (2) move semantics: move, forward, rvalue references og move constructors/-assignment
+ - [x] (2) default and deleted functions
+ - [x] (3) enum class ("strongly typed enums")
+ - [x] (3) using (i stedet for typedef) (alias og alias templates)
+ - [x] (3) lambda-funksjoner
+ - [x] (4) override og final
+ - [x] (5) std::mutex, std::recursive_mutex osv.
+ - [x] (5) std::lock, std::lock_guard
+ - [x] (5) std::atomic
+ - [x] (5) std::thread
+ - [x] (5) std::future
+ - [x] (6) inline-namespace
+ - [x] (6) user-defined literals
+ - [x] (6) initializer lists
+ - [x] (6) delegating constructors
+ - [x] (6) std::chrono
  - [ ] type traits (eks. std::is_integral<int>::value)
  - [ ] variadic templates
  - [ ] decltype
