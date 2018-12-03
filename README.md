@@ -10,6 +10,8 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/2.html
 - http://meastp.github.io/cpp_kaffeprat/3.html
 - http://meastp.github.io/cpp_kaffeprat/4.html
+- http://meastp.github.io/cpp_kaffeprat/5.html
+- http://meastp.github.io/cpp_kaffeprat/6.html
 
 # status
 
@@ -17,49 +19,50 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 using namespace std;
 ```
 ## C++11
- - [x] nullptr
- - [x] auto
- - [x] to_string
- - [x] tie, tuple
- - [x] array
- - [x] range-based for
- - [x] unique_ptr, make_unique
- - [x] shared_ptr, make_shared
- - [x] non-static data member initializers
- - [x] move semantics: move, forward, rvalue references og move constructors/-assignment
- - [x] default and deleted functions
- - [x] enum class ("strongly typed enums")
- - [x] using (i stedet for typedef) (alias og alias templates)
- - [x] lambda-funksjoner
- - [x] override og final
- - [ ] std::mutex, std::recursive_mutex osv.
- - [ ] std::lock, std::lock_guard
+ - [1] nullptr
+ - [1] auto
+ - [1] to_string
+ - [1] tie, tuple
+ - [1] array
+ - [1] range-based for
+ - [1] unique_ptr, make_unique
+ - [1] shared_ptr, make_shared
+ - [2] non-static data member initializers
+ - [2] move semantics: move, forward, rvalue references og move constructors/-assignment
+ - [2] default and deleted functions
+ - [3] enum class ("strongly typed enums")
+ - [3] using (i stedet for typedef) (alias og alias templates)
+ - [3] lambda-funksjoner
+ - [4] override og final
+ - [5] std::mutex, std::recursive_mutex osv.
+ - [5] std::lock, std::lock_guard
+ - [5] std::atomic
+ - [5] std::thread
+ - [5] std::future
+ - [6] inline-namespace
+ - [6] user-defined literals
+ - [6] initializer lists
+ - [6] delegating constructors
+ - [6] std::chrono
  - [ ] type traits (eks. std::is_integral<int>::value)
- - [ ] user-defined literals
- - [ ] std::chrono
- - [ ] std::atomic
- - [ ] std::thread
- - [ ] std::future
  - [ ] variadic templates
- - [ ] initializer lists
  - [ ] decltype
  - [ ] attributes
  - [ ] constexpr
- - [ ] delegating constructors
- - [ ] inline-namespace
 
 ## C++14
+ - [ ] constexpr med færre begrensninger
+ - [ ] user-defined literals for standard library types
  - [ ] binary literals
- - [ ] generic lambda expressions
  - [ ] lambda capture initializers
+ - [ ] generic lambda expressions
+ - [ ] variable templates
  - [ ] return type deduction
  - [ ] decltype(auto)
- - [ ] constexpr med færre begrensninger
- - [ ] variable templates
- - [ ] user-defined literals for standard library types
  - [ ] std::integer_sequence
 
 ## C++17
+ - [ ] std::filesystem
  - [ ] std::variant
  - [ ] std::optional
  - [ ] std::any
@@ -78,10 +81,12 @@ using namespace std;
  - [ ] selection statements (if og switch) with initializer
  - [ ] constexpr if
  - [ ] utf-8 character literals
- - [ ] std::filesystem
 
 ## C++20 TBD
  - [ ] Concepts
+ - [ ] Ranges
+ - [ ] Modules
+ - [ ] Contracts
  - [ ] operator<=>
  - [ ] range-based for with initializer
  - [ ] synchronized buffered ostream
@@ -97,13 +102,9 @@ using namespace std;
  - [ ] Parallelism (v1 og v2)
  - [ ] Transactional Memory (v1 og v2)
  - [ ] Library Fundamentals (v1 og v2)
- - [ ] Concepts (del av C++20)
  - [ ] Concurrency (v1 og v2)
- - [ ] Ranges
  - [ ] Coroutines
  - [ ] Networking
- - [ ] Modules
  - [ ] Reflection
  - [ ] Numerics
  - [ ] Graphics
- - [ ] Contracts
