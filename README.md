@@ -35,20 +35,20 @@ using namespace std;
  - [x] (3) using (i stedet for typedef) (alias og alias templates)
  - [x] (3) lambda-funksjoner
  - [x] (4) override og final
- - [ ] (5) std::mutex, std::recursive_mutex osv.
- - [ ] (5) std::lock, std::lock_guard
- - [ ] (5) std::atomic
- - [ ] (5) std::thread
- - [ ] (5) std::future
- - [ ] (6) inline-namespace
- - [ ] (6) user-defined literals
- - [ ] (6) initializer lists
- - [ ] (6) delegating constructors
- - [ ] (6) std::chrono
- - [ ] (7) attributes
- - [ ] (7) decltype
- - [ ] (7) type traits (eks. std::is_integral<int>::value)
- - [ ] (7) variadic templates
+ - [x] (5) std::mutex, std::recursive_mutex osv.
+ - [x] (5) std::lock, std::lock_guard
+ - [x] (5) std::atomic
+ - [x] (5) std::thread
+ - [x] (5) std::future
+ - [x] (6) inline-namespace
+ - [x] (6) user-defined literals
+ - [x] (6) initializer lists
+ - [x] (6) delegating constructors
+ - [x] (6) std::chrono
+ - [x] (7) attributes
+ - [x] (7) decltype
+ - [x] (7) type traits (eks. std::is_integral<int>::value)
+ - [x] (7) variadic templates
  - [ ] constexpr
 
 ## C++14
