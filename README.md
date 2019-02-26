@@ -13,6 +13,9 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/5.html
 - http://meastp.github.io/cpp_kaffeprat/6.html
 - http://meastp.github.io/cpp_kaffeprat/7.html
+- http://meastp.github.io/cpp_kaffeprat/8.html
+- http://meastp.github.io/cpp_kaffeprat/9.html
+- http://meastp.github.io/cpp_kaffeprat/10.html
 
 # status
 
@@ -49,39 +52,39 @@ using namespace std;
  - [x] (7) decltype
  - [x] (7) type traits (eks. std::is_integral<int>::value)
  - [x] (7) variadic templates
- - [ ] constexpr
+ - [ ] (8) constexpr
 
 ## C++14
- - [ ] constexpr med færre begrensninger
- - [ ] user-defined literals for standard library types
- - [ ] binary literals
- - [ ] lambda capture initializers
- - [ ] generic lambda expressions
- - [ ] variable templates
- - [ ] return type deduction
- - [ ] decltype(auto)
- - [ ] std::integer_sequence
+ - [ ] (8) constexpr med færre begrensninger
+ - [ ] (8) user-defined literals for standard library types
+ - [ ] (8) binary literals
+ - [ ] (8) lambda capture initializers
+ - [ ] (8) generic lambda expressions
+ - [ ] (8) return type deduction
+ - [ ] (8) decltype(auto)
+ - [ ] (8) std::integer_sequence
+ - [ ] (8) variable templates
 
 ## C++17
- - [ ] std::filesystem
- - [ ] std::variant
- - [ ] std::optional
- - [ ] std::any
- - [ ] std::string_view
- - [ ] std::invoke
- - [ ] std::apply
- - [ ] splicing for maps and sets
- - [ ] template argument deduction for class templates
- - [ ] declaring non-type template parameters with auto
- - [ ] folding expressions
- - [ ] constexpr lambda
- - [ ] lambda capture this by value
- - [ ] inline variables
  - [ ] nested namespaces
  - [ ] structured bindings
  - [ ] selection statements (if og switch) with initializer
  - [ ] constexpr if
+ - [ ] constexpr lambda
+ - [ ] lambda capture this by value
  - [ ] utf-8 character literals
+ - [ ] splicing for maps and sets
+ - [ ] std::filesystem
+ - [ ] std::variant
+ - [ ] std::string_view
+ - [ ] std::optional
+ - [ ] std::any
+ - [ ] inline variables
+ - [ ] folding expressions
+ - [ ] template argument deduction for class templates
+ - [ ] declaring non-type template parameters with auto
+ - [ ] std::apply
+ - [ ] std::invoke
 
 ## C++20 TBD
  - [ ] Concepts
