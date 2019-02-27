@@ -6,14 +6,14 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
 # presentasjoner
 
-- http://meastp.github.io/cpp_kaffeprat/1.html
-- http://meastp.github.io/cpp_kaffeprat/2.html
-- http://meastp.github.io/cpp_kaffeprat/3.html
-- http://meastp.github.io/cpp_kaffeprat/4.html
-- http://meastp.github.io/cpp_kaffeprat/5.html
-- http://meastp.github.io/cpp_kaffeprat/6.html
-- http://meastp.github.io/cpp_kaffeprat/7.html
-- http://meastp.github.io/cpp_kaffeprat/8.html?file=8.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=1.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=2.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=3.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=4.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=5.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=6.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=7.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=8.md
 
 # status
 
