@@ -28,8 +28,16 @@
         <script src="https://remarkjs.com/downloads/remark-latest.min.js">
         </script>
         <script type="text/javascript">
+            function getUrlVars() {
+                var vars = {};
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                    vars[key] = value;
+                });
+                return vars;
+            }
+
             var slideshow = remark.create({
-                sourceUrl: "8.md",
+                sourceUrl: getUrlVars()["file"],
                 highlightStyle: 'vs',
                 highlightLines: 'true'
             });
