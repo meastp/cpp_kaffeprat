@@ -84,6 +84,8 @@ using namespace std;
  - [ ] std::apply
  - [ ] std::invoke
 
+## Oppsummering Unicode
+
 ## C++20 TBD
  - [ ] Concepts
  - [ ] Ranges
