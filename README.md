@@ -50,18 +50,18 @@ using namespace std;
  - [x] (7) decltype
  - [x] (7) type traits (eks. std::is_integral<int>::value)
  - [x] (7) variadic templates
- - [ ] (8) constexpr
+ - [x] (8) constexpr
 
 ## C++14
- - [ ] (8) constexpr med færre begrensninger
- - [ ] (8) user-defined literals for standard library types
- - [ ] (8) binary literals
- - [ ] (8) lambda capture initializers
- - [ ] (8) generic lambda expressions
- - [ ] (8) return type deduction
- - [ ] (8) decltype(auto)
- - [ ] (8) std::integer_sequence
- - [ ] (8) variable templates
+ - [x] (8) constexpr med færre begrensninger
+ - [x] (8) user-defined literals for standard library types
+ - [x] (8) binary literals
+ - [x] (8) lambda capture initializers
+ - [x] (8) generic lambda expressions
+ - [x] (8) return type deduction
+ - [x] (8) decltype(auto)
+ - [x] (8) std::integer_sequence
+ - [x] (8) variable templates
 
 ## C++17
  - [ ] nested namespaces
