@@ -64,25 +64,68 @@ using namespace std;
  - [x] (8) variable templates
 
 ## C++17
- - [ ] nested namespaces
+ - [ ] (9) nested namespaces
+ https://en.cppreference.com/w/cpp/language/namespace
+ 
+ namespace A::B::C { }
+ namespace A { namespace B { namespace C { }}}
+ 
+ - [ ] (9) utf-8 character literals
+ https://en.cppreference.com/w/cpp/language/character_literal
+ 
+ u8'a' (krever MSVC /utf8 kompilator-parameter)
+ 
+ - [ ] (9) splicing for maps and sets (insert_or_assign, try_emplace, merge, extract)
+ https://www.modernescpp.com/index.php/c-17-the-improved-interface-of-the-associative-containers
+ 
+ - [ ] (9) inline variables
+
+// erstatter også extern const-variable
+
+struct MyClass
+{
+    inline static const int sValue = 777;
+};
+ 
+ - [ ] (9) std::optional
+ https://en.cppreference.com/w/cpp/utility/optional
+ 
+ auto o1 = std::optional<int>{};
+ auto o2 = std::optional<int>{42};
+ 
+ assert(!o1);
+ assert(o2);
+ 
+ *o1 // krasj
+ *o2 // 42
+ 
+ - [ ] (9) std::any
+ https://en.cppreference.com/w/cpp/utility/any
+ 
+ Er en eiende void* som er type-sikker.
+ 
+ - [ ] (9) std::filesystem
+ https://en.cppreference.com/w/cpp/filesystem
+ 
+ 
+ - [ ] std::string_view
+ https://en.cppreference.com/w/cpp/string/basic_string_view
+ 
+ https://devblogs.microsoft.com/cppblog/stdstring_view-the-duct-tape-of-string-types/
+ 
+ En ikke-eiende referanse til en string
+ 
+ - [ ] std::variant, std::visit
  - [ ] structured bindings
  - [ ] selection statements (if og switch) with initializer
- - [ ] constexpr if
- - [ ] constexpr lambda
- - [ ] lambda capture this by value
- - [ ] utf-8 character literals
- - [ ] splicing for maps and sets
- - [ ] std::filesystem
- - [ ] std::variant
- - [ ] std::string_view
- - [ ] std::optional
- - [ ] std::any
- - [ ] inline variables
+ - [ ] std::apply
+ - [ ] std::invoke
  - [ ] folding expressions
  - [ ] template argument deduction for class templates
  - [ ] declaring non-type template parameters with auto
- - [ ] std::apply
- - [ ] std::invoke
+ - [ ] constexpr if
+ - [ ] constexpr lambda
+ - [ ] lambda capture this by value
 
 ## Oppsummering Unicode
 
