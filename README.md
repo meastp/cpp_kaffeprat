@@ -108,24 +108,105 @@ struct MyClass
  https://en.cppreference.com/w/cpp/filesystem
  
  
- - [ ] std::string_view
+ - [ ] (9) std::string_view
  https://en.cppreference.com/w/cpp/string/basic_string_view
  
  https://devblogs.microsoft.com/cppblog/stdstring_view-the-duct-tape-of-string-types/
  
  En ikke-eiende referanse til en string
  
- - [ ] std::variant, std::visit
- - [ ] structured bindings
- - [ ] selection statements (if og switch) with initializer
- - [ ] std::apply
- - [ ] std::invoke
- - [ ] folding expressions
- - [ ] template argument deduction for class templates
- - [ ] declaring non-type template parameters with auto
- - [ ] constexpr if
- - [ ] constexpr lambda
- - [ ] lambda capture this by value
+ - [ ] (10) std::variant, std::visit
+ 
+ https://en.cppreference.com/w/cpp/utility/variant
+ 
+ std::variant<QdiPolygon, QdiRectangle, QdiCircle> shape;
+ 
+ https://en.cppreference.com/w/cpp/utility/variant/visit
+ 
+ std::visit(overloaded {
+            [](auto arg) { std::cout << "shape er circle" << ' '; },
+            [](QdiPolygon arg) { std::cout << "shape er polygon" << ' '; },
+            [](QdiRectangle arg) { std::cout << "shape er rectangle" << ' '; },
+        }, shape);
+        
+ auto first_point = std::visit(overloaded {
+            [](auto arg) { return arg.getfirstpoint(); },
+            [](QdiPolygon arg) { return arg.get(0); },
+            [](QdiRectangle arg) { return arg[0]; },
+        }, shape);
+ 
+ - [ ] (10) structured bindings
+ https://www.geeksforgeeks.org/structured-binding-c/
+ 
+ auto [username, password] = get_credentials();
+ 
+ - [ ] (10) selection statements (if og switch) with initializer
+ https://en.cppreference.com/w/cpp/language/if#If_Statements_with_Initializer
+ 
+ if (std::lock_guard lock(mx); shared_flag) { unsafe_ping(); shared_flag = false; }
+ 
+ - [ ] (10) std::apply, std::invoke
+ 
+ https://en.cppreference.com/w/cpp/utility/apply
+ https://en.cppreference.com/w/cpp/utility/functional/invoke
+ 
+ - [ ] (10) fold expressions
+ 
+ https://en.cppreference.com/w/cpp/language/fold
+ 
+ 	template <typename Table, typename... Tables> 
+  void truncate_tables(Table table, Tables... tables)
+	{
+		std::stringstream query;
+
+		query << "TRUNCATE " << table;
+		(query << ... << (std::string(",") + std::string(tables)));
+
+		ExecuteQuery(query.str().c_str());
+	}
+ 
+ - [ ] (10) template argument deduction for class templates
+ https://en.cppreference.com/w/cpp/language/class_template_argument_deduction
+ 
+ std::pair p(2, 4.5);     // deduces to std::pair<int, double> p(2, 4.5);
+std::tuple t(4, 3, 2.5); // same as auto t = std::make_tuple(4, 3, 2.5);
+std::less l;             // same as std::less<void> l;
+ auto lck = std::lock_guard(mtx); // deduces to std::lock_guard<std::mutex>
+ 
+ - [ ] (10) declaring non-type template parameters with auto
+ https://en.cppreference.com/w/cpp/language/template_parameters#Non-type_template_parameter
+ 
+ template<auto n> struct B { /* ... */ };
+B<5> b1;   // OK: non-type template parameter type is int
+B<'a'> b2; // OK: non-type template parameter type is char
+B<2.5> b3; // error: non-type template parameter type cannot be double
+ 
+ template<auto...> struct C {};
+C<'C', 0, 2L, nullptr> x; // OK
+ 
+ - [ ] (10) if constexpr
+ 
+ https://en.cppreference.com/w/cpp/language/if
+
+https://dev.azure.com/norkart-tfs/WinGIS_QMS/_git/qms?path=%2Fsrc%2FMapper%2FQMSDBMapper%2FTypeRegistryReader.h&version=GBmaster&line=324&lineStyle=plain&lineEnd=344&lineStartColumn=1&lineEndColumn=5
+ 
+ - [ ] (10) constexpr lambda
+ 
+ Lambda kan brukes som constexpr.
+ 
+ - [ ] (10) lambda capture this by value
+
+https://en.cppreference.com/w/cpp/language/lambda#Lambda_capture
+
+struct S2 {
+void f(int i)
+{
+    [=]{};          // OK: by-copy capture default
+    [=, &i]{};      // OK: by-copy capture, except i is captured by reference
+    [=, *this]{};   // until C++17: Error: invalid syntax
+                    // since c++17: OK: captures the enclosing S2 by copy
+}
+};
 
 ## Oppsummering Unicode
 
