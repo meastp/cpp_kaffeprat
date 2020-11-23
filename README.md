@@ -16,13 +16,14 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=8.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=9.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=10.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=11.md
 
 # status
 
 ```cpp
 using namespace std;
 ```
-## C++11
+## [C++11](https://en.cppreference.com/w/cpp/11)
  - [x] (1) nullptr
  - [x] (1) auto
  - [x] (1) to_string
@@ -54,7 +55,7 @@ using namespace std;
  - [x] (7) variadic templates
  - [x] (8) constexpr
 
-## C++14
+## [C++14](https://en.cppreference.com/w/cpp/14)
  - [x] (8) constexpr med færre begrensninger
  - [x] (8) user-defined literals for standard library types
  - [x] (8) binary literals
@@ -65,52 +66,57 @@ using namespace std;
  - [x] (8) std::integer_sequence
  - [x] (8) variable templates
 
-## C++17
- - [ ] (9) nested namespaces
- - [ ] (9) utf-8 character literals
- - [ ] (9) splicing for maps and sets (insert_or_assign, try_emplace, merge, extract)
- - [ ] (9) inline variables
- - [ ] (9) std::optional
- - [ ] (9) std::any
- - [ ] (9) std::filesystem
- - [ ] (9) std::string_view
+## [C++17](https://en.cppreference.com/w/cpp/17)
+ - [x] (9) nested namespaces
+ - [x] (9) utf-8 character literals
+ - [x] (9) splicing for maps and sets (insert_or_assign, try_emplace, merge, extract)
+ - [x] (9) inline variables
+ - [x] (9) std::optional
+ - [x] (9) std::any
+ - [x] (9) std::filesystem
+ - [x] (9) std::string_view
  
- - [ ] (10) std::variant, std::visit
- - [ ] (10) structured bindings
- - [ ] (10) selection statements (if og switch) with initializer
- - [ ] (10) std::apply, std::invoke
- - [ ] (10) fold expressions
- - [ ] (10) template argument deduction for class templates
- - [ ] (10) declaring non-type template parameters with auto
- - [ ] (10) if constexpr
- - [ ] (10) constexpr lambda
- - [ ] (10) lambda capture this by value
+ - [x] (10) std::variant, std::visit
+ - [x] (10) structured bindings
+ - [x] (10) selection statements (if og switch) with initializer
+ - [x] (10) std::apply, std::invoke
+ - [x] (10) fold expressions
+ - [x] (10) template argument deduction for class templates
+ - [x] (10) declaring non-type template parameters with auto
+ - [x] (10) if constexpr
+ - [x] (10) constexpr lambda
+ - [x] (10) lambda capture this by value
+
+## [C++20](https://en.cppreference.com/w/cpp/20)
+ - [ ] (11) range-based for with initializer
+ - [ ] (11) std::starts_with std::ends_with for std::string og std::string_view
+ - [ ] (11) uniform container erasure (std::erase og std::erase_if)
+ - [ ] (11) std::u8string
+ - [ ] (11) std::bind_front
+ - [ ] (11) std::endian
+ - [ ] (11) <numbers> - matematiske konstanter
+ - [ ] (11) std::jthread - joining thread with cancellation
+ - [ ] (11) <source_location>
+ - [ ] (11) <span>
+ - [ ] <bit>
+ - [ ] consteval, constinit
+ - [ ] mer constexpr (std::vector std::string)
+ - [ ] 3-way comparison `<=>` og `operator==() = default` og <compare>
+ - [ ] designated initializers (fra C)
+ - [ ] <concepts>
+ - [ ] abbreviated function templates
+ - [ ] Calendar and Time Zone library (<chrono>)
+ - [ ] <coroutine>
+ - [ ] modules
+ - [ ] <format>
+ - [ ] <ranges>
+
+## C++23 TBD
+ - [ ] stacktrace
+ - [ ] string::contains
+ - [ ] size_t -> 100uz
+ - pattern matching?
+ - modules for std?
+ - coroutine task?
 
 ## Oppsummering Unicode
-
-## C++20 TBD
- - [ ] Concepts
- - [ ] Ranges
- - [ ] Modules
- - [ ] Contracts
- - [ ] operator<=>
- - [ ] range-based for with initializer
- - [ ] synchronized buffered ostream
- - [ ] flere constexpr-funksjoner i std
- - [ ] floating-point atomics
- - [ ] starts_with() and ends_with() for strenger
- - [ ] template-parametre for lambdaer
- - [ ] designated initializers
- - [ ] detecting endianness programmatically
- - [ ] make_shared for arrays
-
-## C++ Technical Specifications
- - [ ] Parallelism (v1 og v2)
- - [ ] Transactional Memory (v1 og v2)
- - [ ] Library Fundamentals (v1 og v2)
- - [ ] Concurrency (v1 og v2)
- - [ ] Coroutines
- - [ ] Networking
- - [ ] Reflection
- - [ ] Numerics
- - [ ] Graphics
