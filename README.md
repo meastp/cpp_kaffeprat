@@ -88,28 +88,28 @@ using namespace std;
  - [x] (10) lambda capture this by value
 
 ## [C++20](https://en.cppreference.com/w/cpp/20)
- - [ ] (11) range-based for with initializer
- - [ ] (11) `std::starts_with` `std::ends_with` for `std::string` og `std::string_view`
- - [ ] (11) uniform container erasure (`std::erase` og `std::erase_if`)
- - [ ] (11) `std::u8string`
- - [ ] (11) `std::bind_front`
- - [ ] (11) `std::endian`
- - [ ] (11) `<numbers>` - matematiske konstanter
- - [ ] (11) `std::jthread` - joining thread with cancellation
- - [ ] (11) `<source_location>`
- - [ ] (11) `<span>`
+ - [x] (11) range-based for with initializer
+ - [x] (11) `std::starts_with` `std::ends_with` for `std::string` og `std::string_view`
+ - [x] (11) uniform container erasure (`std::erase` og `std::erase_if`)
+ - [x] (11) `std::u8string`
+ - [x] (11) `std::bind_front`
+ - [x] (11) `std::endian`
+ - [x] (11) `<numbers>` - matematiske konstanter
+ - [x] (11) `std::jthread` - joining thread with cancellation
+ - [x] (11) `<source_location>`
+ - [x] (11) `<span>`
  - [ ] `<bit>`
  - [ ] consteval, constinit
  - [ ] mer constexpr (`std::vector` `std::string`)
- - [ ] 3-way comparison `<=>` og `operator==() = default` og `<compare>`
  - [ ] designated initializers (fra C)
- - [ ] `<concepts>`
- - [ ] abbreviated function templates
+ - [ ] 3-way comparison `<=>` og `operator==() = default` og `<compare>`
  - [ ] Calendar and Time Zone library (`<chrono>`)
- - [ ] `<coroutine>`
- - [ ] modules
  - [ ] `<format>`
  - [ ] `<ranges>`
+ - [ ] `<concepts>`
+ - [ ] abbreviated function templates
+ - [ ] `<coroutine>`
+ - [ ] modules
 
 ## C++23 TBD
  - [ ] stacktrace
