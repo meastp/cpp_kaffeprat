@@ -17,6 +17,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=9.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=10.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=11.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=12.md
 
 # status
 
@@ -98,11 +99,11 @@ using namespace std;
  - [x] (11) `std::jthread` - joining thread with cancellation
  - [x] (11) `<source_location>`
  - [x] (11) `<span>`
- - [ ] `<bit>`
- - [ ] consteval, constinit
- - [ ] mer constexpr (`std::vector` `std::string`)
- - [ ] designated initializers (fra C)
- - [ ] 3-way comparison `<=>` og `operator==() = default` og `<compare>`
+ - [ ] (12) `<bit>`
+ - [ ] (12) consteval, constinit
+ - [ ] (12) mer constexpr (`std::vector` `std::string`)
+ - [ ] (12) designated initializers (fra C)
+ - [ ] (12) 3-way comparison `<=>` og `operator==() = default` og `<compare>`
  - [ ] Calendar and Time Zone library (`<chrono>`)
  - [ ] `<format>`
  - [ ] `<ranges>`
