@@ -104,13 +104,13 @@ using namespace std;
  - [ ] (12) mer constexpr (`std::vector` `std::string`)
  - [ ] (12) designated initializers (fra C)
  - [ ] (12) 3-way comparison `<=>` og `operator==() = default` og `<compare>`
- - [ ] Calendar and Time Zone library (`<chrono>`)
  - [ ] `<format>`
- - [ ] `<ranges>`
- - [ ] `<concepts>`
+ - [ ] Calendar and Time Zone library (`<chrono>`)
  - [ ] abbreviated function templates
+ - [ ] `<concepts>`
  - [ ] `<coroutine>`
  - [ ] modules
+ - [ ] `<ranges>`
 
 ## C++23 TBD
  - [ ] stacktrace
