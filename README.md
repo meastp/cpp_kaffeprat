@@ -18,6 +18,12 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=10.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=11.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=12.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=13.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=14.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=15.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=16.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=17.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=18.md
 
 # status
 
@@ -99,18 +105,18 @@ using namespace std;
  - [x] (11) `std::jthread` - joining thread with cancellation
  - [x] (11) `<source_location>`
  - [x] (11) `<span>`
- - [ ] (12) `<bit>`
- - [ ] (12) consteval, constinit
- - [ ] (12) mer constexpr (`std::vector` `std::string`)
- - [ ] (12) designated initializers (fra C)
- - [ ] (12) 3-way comparison `<=>` og `operator==() = default` og `<compare>`
- - [ ] `<format>`
- - [ ] Calendar and Time Zone library (`<chrono>`)
- - [ ] abbreviated function templates
- - [ ] `<concepts>`
- - [ ] `<coroutine>`
- - [ ] modules
- - [ ] `<ranges>`
+ - [x] (12) `<bit>`
+ - [x] (12) consteval, constinit
+ - [x] (12) mer constexpr (`std::vector` `std::string`)
+ - [x] (12) designated initializers (fra C)
+ - [x] (12) 3-way comparison `<=>` og `operator==() = default` og `<compare>`
+ - [ ] (13) `<format>`
+ - [ ] (14) Calendar and Time Zone library (`<chrono>`)
+ - [ ] (15) abbreviated function templates
+ - [ ] (15) `<concepts>`
+ - [ ] (16) `<coroutine>`
+ - [ ] (17) modules
+ - [ ] (18) `<ranges>`
 
 ## C++23 TBD
  - [ ] stacktrace
