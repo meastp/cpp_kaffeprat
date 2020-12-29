@@ -19,11 +19,6 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=11.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=12.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=13.md
-- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=14.md
-- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=15.md
-- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=16.md
-- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=17.md
-- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=18.md
 
 # status
 
