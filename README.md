@@ -19,6 +19,7 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=11.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=12.md
 - http://meastp.github.io/cpp_kaffeprat/presentation.html?file=13.md
+- http://meastp.github.io/cpp_kaffeprat/presentation.html?file=14.md
 
 # status
 
@@ -105,9 +106,9 @@ using namespace std;
  - [x] (12) mer constexpr (`std::vector` `std::string`)
  - [x] (12) designated initializers (fra C)
  - [x] (12) 3-way comparison `<=>` og `operator==() = default` og `<compare>`
- - [ ] (13) `<format>`
+ - [x] (13) `<format>`
  - [ ] (14) Calendar and Time Zone library (`<chrono>`)
- - [ ] (15) abbreviated function templates
+ - [ ] (14) abbreviated function templates
  - [ ] (15) `<concepts>`
  - [ ] (16) `<coroutine>`
  - [ ] (17) modules
